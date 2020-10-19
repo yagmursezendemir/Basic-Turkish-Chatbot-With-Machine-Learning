@@ -1,0 +1,112 @@
+{
+  "intents": [
+    {
+      "tag": "selamlama",
+      "patterns": [
+        "merhaba",
+        "orda mısın",
+        "nasılsın?",
+        "hey",
+        "hello",
+        "selam",
+        "iyi günler"
+      ],
+      "responses": [
+        "Merhaba, Teşekkür ederim.",
+        "Hoşgeldin, nasıl yardımcı olabilirim?"
+        
+      ],
+      "context": [
+        ""
+      ]
+    },
+    {
+      "tag": "deneme",
+      "patterns": [
+        "oluyor mu"
+      ],
+      "responses": [
+        "oluyor çıkıyorsa olmuştur."
+      ],
+      "context": [
+        ""
+      ]
+    },
+    {
+      "tag": "link",
+      "patterns": [
+        "lisans ders listesi linkini öğrenebilir miyim?"
+      ],
+      "responses": [
+        "Senin için bulduğum link-> https://bmb.cu.edu.tr/storage/belgeler/mufredat/20-21_dersler.pdf"
+      ],
+      "context": [
+        ""]
+    },
+    {
+      "tag": "hoscakal",
+      "patterns": [
+        "bay",
+        "görüşürüz",
+        "güzel sohbetti bay"
+
+      ],
+      "responses": [
+        "Hoşçakal! Yine gel.",
+        "İstediğin zamanlarda burdayım!, Hoşçakal",
+        "Tekrar görüşmek dileğiyle. Hoşçakal."
+      ],
+      "context": [
+        ""
+      ]
+    },
+
+    {
+      "tag": "tesekkurler",
+      "patterns": [
+        "Teşekkür ederim",
+        "Teşekkürler",
+        "Sağol",
+        "Sağ ol",
+        "Yardım ettiğin için teşekkürler"
+      ],
+      "responses": [
+        "Her zaman!",
+        "İstediğin zamanlarda burdayım!",
+        "Ben teşekkür ederim."
+      ],
+      "context": [
+        ""
+      ]
+    },
+    {
+      "tag": "noanswer",
+      "patterns": [" "],
+      "responses": [
+        "Üzgünüm, ne demek istediğini anlamadım."
+      ],
+      "context": [
+        ""
+      ]
+    },
+    {
+      "tag": "secenekler",
+      "patterns": [
+        "Bana yardım edebilir misin?",
+        "Ben ne yapabilirim?",
+        "Gelişiyor musun?",
+        "Nasıl yardım edersin?"
+        
+      ],
+      "responses": [
+        "Ben henüz gelişmekte olan bir robotum, ve daha çok başındayım. Sorularına en kısa sürede cevap vermeye çalışacağım."
+       
+      ],
+      "context": [
+        ""
+      ]
+
+  
+    }
+    ]
+}
