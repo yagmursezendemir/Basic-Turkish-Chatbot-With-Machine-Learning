@@ -21,12 +21,12 @@
       ]
     },
     {
-      "tag": "deneme",
+      "tag": "",
       "patterns": [
-        "oluyor mu"
+        ""
       ],
       "responses": [
-        "oluyor çıkıyorsa olmuştur."
+        ""
       ],
       "context": [
         ""
@@ -94,12 +94,12 @@
       "patterns": [
         "Bana yardım edebilir misin?",
         "Ben ne yapabilirim?",
-        "Gelişiyor musun?",
+        
         "Nasıl yardım edersin?"
         
       ],
       "responses": [
-        "Ben henüz gelişmekte olan bir robotum, ve daha çok başındayım. Sorularına en kısa sürede cevap vermeye çalışacağım."
+        " :D "
        
       ],
       "context": [
